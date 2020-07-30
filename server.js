@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const exampleEmbed = new Discord.RichEmbed()
-const token2 = 'YOUR TOKEN HERE'
+const token2 = 'NzM3NDkzNDQ2MDIwODI1MTE4.XyIllg.-Ww2NFsalO2J6ZO1Vknq66yHS6Q'
 const prefix = "$";
 
 bot.on('ready', function() {
@@ -92,16 +92,16 @@ bot.on('message', message => {
         message.delete()
         var help_embed = new Discord.RichEmbed()
         .setColor("#0a2a91")
-        .setTitle("LORD UZI")
+        .setTitle("DADDY JUGG")
         .setThumbnail('https://cdn.discordapp.com/attachments/680601454016331798/680619115903320215/image0.gif')
         .addField(prefix+":8ball:  help", "`𝐒𝐡𝐨𝐰𝐬 𝐲𝐨𝐮 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
         .addField(prefix+":8ball:  raid", "`𝐒𝐡𝐨𝐰𝐬 𝐫𝐚𝐢𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
         .addField(prefix+":8ball:  fun", "`𝐒𝐡𝐨𝐰𝐬 𝐟𝐮𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
         .addField(prefix+":8ball:  stream", "`𝐒𝐡𝐨𝐰𝐬 𝐬𝐭𝐫𝐞𝐚𝐦 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
-        .addField(prefix+"::8ball:  nsfw", "`𝐒𝐡𝐨𝐰𝐬 𝐧𝐬𝐟𝐰 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
-        .addField(prefix+":8ball:  END ", "`𝐃𝐚𝐝𝐝𝐲 𝐮𝐳𝐢 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐦𝐞✦`")
+        .addField(prefix+":8ball:  nsfw", "`𝐒𝐡𝐨𝐰𝐬 𝐧𝐬𝐟𝐰 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
+        .addField(prefix+":8ball:  END ", "`𝐃𝐚𝐝𝐝𝐲 𝐯𝐞𝐱𝐱 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐦𝐞✦`")
         .setImage('')
-        .setFooter(prefix+'Uzi made this')
+        .setFooter(prefix+'vexx made this')
         message.channel.sendMessage(help_embed);
     }else if(message.content === prefix+'stream'){
         message.delete()
