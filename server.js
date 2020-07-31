@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 const exampleEmbed = new Discord.RichEmbed();
 const token2 = "NzM3NDkzNDQ2MDIwODI1MTE4.XyIllg.-Ww2NFsalO2J6ZO1Vknq66yHS6Q";
-const prefix = "&";
+const prefix = "x";
 
 bot.on("ready", function() {
   bot.user.setActivity("chosen", {
@@ -71,7 +71,7 @@ bot.on("message", message => {
   } else if (message.content === prefix + "what") {
     message.delete();
     var croquette_embed = new Discord.RichEmbed()
-      .setColor("#1f40ab")
+      .setColor("#dd55a5")
       .setTitle("what?")
       .setImage(
         "https://media.discordapp.net/attachments/670325089048330250/673381821546889257/image0_1572016206.gif"
@@ -98,7 +98,7 @@ bot.on("message", message => {
     let cont = message.content.slice(15);
     message.delete();
     var sond_embed = new Discord.RichEmbed()
-      .setColor("#1f40ab")
+      .setColor("#70fe3d")
       .setTitle("poll")
       .addField(cont, "@everyone :thumbsup:= true, :thumbsdown:= false");
     message.channel.sendMessage(sond_embed).then(async function(message) {
@@ -131,13 +131,15 @@ bot.on("message", message => {
       .addField(prefix + ":8ball:  stream", "`𝐒𝐡𝐨𝐰𝐬 𝐬𝐭𝐫𝐞𝐚𝐦 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":8ball:  nsfw", "`𝐒𝐡𝐨𝐰𝐬 𝐧𝐬𝐟𝐰 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":8ball:  END ", "`𝐃𝐚𝐝𝐝𝐲 𝐉𝐮𝐠𝐠 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐦𝐞✦`")
-      .setImage("")
+      .setImage(
+        "https://cdn.discordapp.com/attachments/738508250311557120/738629741896138772/Animated_GIF-downsized_large_1.gif"
+      )
       .setFooter(prefix + "shaun husband made this ");
     message.channel.sendMessage(help_embed);
   } else if (message.content === prefix + "stream") {
     message.delete();
     var stream_embed = new Discord.RichEmbed()
-      .setColor("#0a2a91")
+      .setColor("#cd547e")
       .setTitle("𝙎𝙏𝘼𝙏𝙐𝙎 𝘾𝙈𝘿𝙎 :ghost: ")
       .setThumbnail(
         "https://cdn.discordapp.com/attachments/738508250311557120/738634847890833438/image0.gif"
@@ -171,10 +173,10 @@ bot.on("message", message => {
   } else if (message.content === prefix + "nsfw") {
     message.delete();
     var nsfw_embed = new Discord.RichEmbed()
-      .setColor("#0a2a91")
+      .setColor("##b0decb")
       .setTitle(" 𝙉𝙎𝙁𝙒 𝘾𝙈𝘿𝙎 :see_no_evil: ")
       .setThumbnail(
-        "https://cdn.discordapp.com/attachments/680601454016331798/680619115903320215/image0.gif"
+        "https://cdn.discordapp.com/attachments/738594715611430975/738668349420208168/hentaii.webp"
       )
       .addField(prefix + ":gem: fuck", "`𝘚𝘩𝘰𝘸𝘴 𝘧𝘶𝘤𝘬 𝘤𝘰𝘮𝘮𝘢𝘯𝘥✦`")
       .addField(prefix + ":gem: sex ", "`𝘚𝘩𝘰𝘸𝘴 𝘴𝘦𝘹 𝘤𝘰𝘮𝘮𝘢𝘯𝘥✦`")
@@ -187,7 +189,7 @@ bot.on("message", message => {
   } else if (message.content === prefix + "fun") {
     message.delete();
     var fun_embed = new Discord.RichEmbed()
-      .setColor("#0a2a91")
+      .setColor("#ed785a")
       .setTitle("𝙁𝙐𝙉 𝘾𝙈𝘿𝙎 :zany_face:")
       .setThumbnail(
         "https://cdn.discordapp.com/attachments/680601454016331798/680619115903320215/image0.gif"
@@ -289,7 +291,7 @@ bot.on("message", message => {
   } else if (message.content === prefix + "sex") {
     message.delete();
     var r2_embed = new Discord.RichEmbed()
-      .setColor("#ffadad")
+      .setColor("#11b13c")
       .setTitle("You got Fucked lol ")
       .setImage(
         "https://images-ext-1.discordapp.net/external/RlDL3Qv_ViDx5XDovOhu79_qSNgW9mzLJKgUV6dvlGU/https/img.xbooru.com//images/611/3fb2345ac1398f1077ea40b0f97150aa.gif"
@@ -321,7 +323,7 @@ bot.on("message", message => {
   } else if (message.content === prefix + "raid") {
     message.delete();
     var raid_embed = new Discord.RichEmbed()
-      .setColor("#0a2a91")
+      .setColor("#6768fa")
       .setThumbnail(
         "https://cdn.discordapp.com/attachments/680601454016331798/680619115903320215/image0.gif"
       )
