@@ -127,14 +127,14 @@ bot.on("message", message => {
       )
       .addField(prefix + ":bomb:  help", "`𝐒𝐡𝐨𝐰𝐬 𝐲𝐨𝐮 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":bomb:  raid", "`𝐬𝐡𝐨𝐰𝐬 𝐡𝐨𝐰 𝐭𝐨 𝐟𝐮𝐜𝐤 𝐮𝐩 𝐬𝐡𝐢𝐭✦`")
-      .addField(prefix + ":bomb:  fun", "`𝐒𝐡𝐨𝐰𝐬 𝐟𝐮𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
-      .addField(prefix + ":8ball:  stream", "`𝐒𝐡𝐨𝐰𝐬 𝐬𝐭𝐫𝐞𝐚𝐦 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
-      .addField(prefix + ":8ball:  nsfw", "`𝐒𝐡𝐨𝐰𝐬 𝐧𝐬𝐟𝐰 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
+      .addField(prefix + ":bomb:  fun", "` 𝐟𝐮𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
+      .addField(prefix + ":8ball:  stream", "`𝐬𝐡𝐨𝐰 𝐞𝐦 𝐰𝐡𝐚𝐭𝐜𝐡𝐚 𝐝𝐨𝐢𝐧✦`")
+      .addField(prefix + ":8ball:  nsfw", "`𝐒𝐡𝐨𝐰𝐬 𝐤𝐢𝐧𝐤𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":8ball:  END ", "`𝐃𝐚𝐝𝐝𝐲 𝐉𝐮𝐠𝐠 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐦𝐞✦`")
       .setImage(
         "https://cdn.discordapp.com/attachments/738508250311557120/738629741896138772/Animated_GIF-downsized_large_1.gif"
       )
-      .setFooter(prefix + "shaun husband made this ");
+      .setFooter(prefix + "𝐫𝐞𝐦𝐚𝐝𝐞 𝐛𝐲 𝐃𝐚𝐝𝐝𝐲𝐉𝐮𝐠 ");
     message.channel.sendMessage(help_embed);
   } else if (message.content === prefix + "stream") {
     message.delete();
@@ -176,7 +176,7 @@ bot.on("message", message => {
       .setColor("##b0decb")
       .setTitle(" 𝙉𝙎𝙁𝙒 𝘾𝙈𝘿𝙎 :see_no_evil: ")
       .setThumbnail(
-        "https://cdn.discordapp.com/attachments/738594715611430975/738668349420208168/hentaii.webp"
+        "https://cdn.nekos.life/Random_hentai_gif/Random_hentai_gifNB_1700.gif"
       )
       .addField(prefix + ":gem: fuck", "`𝘚𝘩𝘰𝘸𝘴 𝘧𝘶𝘤𝘬 𝘤𝘰𝘮𝘮𝘢𝘯𝘥✦`")
       .addField(prefix + ":gem: sex ", "`𝘚𝘩𝘰𝘸𝘴 𝘴𝘦𝘹 𝘤𝘰𝘮𝘮𝘢𝘯𝘥✦`")
@@ -192,7 +192,7 @@ bot.on("message", message => {
       .setColor("#ed785a")
       .setTitle("𝙁𝙐𝙉 𝘾𝙈𝘿𝙎 :zany_face:")
       .setThumbnail(
-        "https://cdn.discordapp.com/attachments/680601454016331798/680619115903320215/image0.gif"
+        "https://cdn.discordapp.com/attachments/720759780439752777/738671048693776435/image0.gif"
       )
       .addField(
         prefix + ":crossed_swords: load",
@@ -325,7 +325,7 @@ bot.on("message", message => {
     var raid_embed = new Discord.RichEmbed()
       .setColor("#6768fa")
       .setThumbnail(
-        "https://cdn.discordapp.com/attachments/680601454016331798/680619115903320215/image0.gif"
+        "https://cdn.discordapp.com/attachments/738223439642361889/738388990465540126/image0.gif"
       )
       .setTitle("𝙉𝙐𝙆𝙀 𝘾𝙈𝘿𝙎 :robot:")
       .addField(prefix + "spam", "`𝘚𝘱𝘢𝘮  10 𝘮𝘦𝘴𝘴𝘢𝘨𝘦𝘴 𝘤𝘳𝘰𝘴𝘴✦`")
