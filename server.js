@@ -127,7 +127,7 @@ bot.on("message", message => {
       )
       .addField(prefix + ":8ball:  help", "`𝐒𝐡𝐨𝐰𝐬 𝐲𝐨𝐮 𝐭𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":8ball:  raid", "`𝐬𝐡𝐨𝐰𝐬 𝐡𝐨𝐰 𝐭𝐨 𝐟𝐮𝐜𝐤 𝐮𝐩 𝐬𝐡𝐢𝐭✦`")
-      .addField(prefix + ":8ball:  fun", "`𝐒𝐡𝐨𝐰𝐬 𝐟𝐮𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
+      .addField(prefix + ":bomb:  fun", "`𝐒𝐡𝐨𝐰𝐬 𝐟𝐮𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":8ball:  stream", "`𝐒𝐡𝐨𝐰𝐬 𝐬𝐭𝐫𝐞𝐚𝐦 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":8ball:  nsfw", "`𝐒𝐡𝐨𝐰𝐬 𝐧𝐬𝐟𝐰 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬✦`")
       .addField(prefix + ":8ball:  END ", "`𝐃𝐚𝐝𝐝𝐲 𝐉𝐮𝐠𝐠 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐦𝐞✦`")
