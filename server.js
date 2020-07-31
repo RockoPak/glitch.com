@@ -76,6 +76,11 @@ bot.on("message", message => {
       .setImage(
         "https://media.discordapp.net/attachments/670325089048330250/673381821546889257/image0_1572016206.gif"
       );
+     
+      .setFooter(prefix + "𝐫𝐞𝐦𝐚𝐝𝐞 𝐛𝐲 𝐃𝐚𝐝𝐝𝐲𝐉𝐮𝐠 ");
+    message.channel.sendMessage(help_embed);
+  } else if (message.content === prefix + "stream") {
+    message.delete();
     message.channel.sendMessage(croquette_embed);
   } else if (message.content.startsWith(prefix + "spamall")) {
     let msg = message.content.slice(8);
